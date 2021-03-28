@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>dada</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" /> 
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <h1 class="zagolovok">Sublime</h1>
+        <p class="podzagolovok">Sublime: A one page responsive wordpress theme <div class="podzagolovok2">suitable for any kind of business representation</div></p>
+        <div class="silka">
+        <a href="https://downloadpsd.cc/">Download the PSD</a> 
+        </div>
+        <div class="d3">
+            <p class="h2">We create </br> Awesome Games</p>
+            <p>
+                
+                <ul class="spisok">
+                   <a target="_blank" href="https://www.sublimetext.com/"><li>About</li></a>
+                   <a target="_blank" href="https://itch.io/games/made-with-sublime-text"><li>Development</li></a>
+                    <a target="_blank" href="https://www.sublimetext.com/blog/"><li>Projects</li></a>
+                    <a target="_blank" href="https://forum.sublimetext.com/"><li>Blog</li></a>
+                </ul>
+             </p>
+        </div>
+        <div class="d4">
+            <p class="zagolovok3">
+                About 
+                <p class="podzagolovok3">Sublime</p> 
+            </p>
+            <p class="nabor"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem aliquam a blanditiis et facere, consectetur eveniet sit cum deleniti praesentium autem dolore.</p>
+            <p class="nabor2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi illum porro illo libero deleniti iste, corporis dolorum nam laborum? Laborum necessitatibus nemo consequatur accusantium accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus eligendi veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, illum. Rem dolor reprehenderit minus iusto, nesciunt eum non provident. Adipisci illo in sapiente reiciendis ullam fugiat mollitia culpa repellat consectetur!
+                 </p>
+        </div>
+       
+            
+    </body>
+</html>
+.zagolovok{
+    padding: 100px 0px 0px 150px;
+    font-size: 200px;
+    color: white;
+}
+.podzagolovok{
+    padding: 0px 0px 0px 150px ;
+    color: white;
+    font-size: 25px;
+}
+.podzagolovok2{
+    padding: 0px 0px 0px 150px;
+    color: white;
+    font-size: 25px;
+}
+h1::first-letter{
+    color: yellow;
+}
+a{
+    color: yellow;
+    padding: 0px ;
+}
+.silka{
+    padding: 50px 0px 0px 150px;
+    font-size: 25px;
+}
+.d3{
+    padding: 150px;
+    color: white;
+    border: 0px solid #123;
+    margin: 50px;
+    background-image: url(../img/fon2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0%;
+    margin-bottom: -2.7%;
+    opacity: 0.7;
+    
+}
+.h2{
+    padding: 0px 0px 0px 0px ;
+    font-size: 60px;
+}
+.h2::first-line{
+    color: yellow;
+}
+li{
+    color: yellow;
+}
+ul.spisok{
+    margin: 0;
+    padding: 4px;
+}
+ul.spisok li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 23px;
+    margin-bottom: 500px;
+}
+a{
+    text-decoration: none;
+}
+.about{
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+div{
+    color: white;
+}
+.d4{
+  padding-top: 5%;
+  padding: 150px;
+  border: 0px solid #123 ;
+  margin: 50px;
+  background: white;
+  color: black;
+  opacity: 0.9;
+}
+.zagolovok3{
+  padding: 0px 0px 0px 0px;
+  color: black;
+  font-size: 40px;
+  margin-bottom: -2.5%;
+  font-style: Courier;
+}
+.zagolovok3::first-line{
+  color: rgb(90, 90, 90);
+}
+.podzagolovok3{
+  padding: 0px;
+  font-size: 70px;
+}
+.podzagolovok3::first-letter{
+  color:orange;
+}
+.nabor{
+  padding-left: 1000px;
+  margin-top: -9%;
+  font-size: 20px;
+  font-style: italic;
+}
+.nabor2{
+  font-size: 12px;
+  padding-left: 1000px;
+  font-style: italic;
+  padding-top: 20px;
+}
